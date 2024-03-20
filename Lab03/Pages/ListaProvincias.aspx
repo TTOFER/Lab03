@@ -13,6 +13,7 @@
                 <asp:BoundField DataField="provincia" HeaderText="Nombre Provincia" />
                 <asp:BoundField DataField="fechaCreacion" HeaderText="Fecha de creación" />
                 <asp:BoundField DataField="estado" HeaderText="Estado" />
+                <asp:BoundField DataField="estado" HeaderText="Estado" />
 
                 <asp:TemplateField>
                     <ItemTemplate>

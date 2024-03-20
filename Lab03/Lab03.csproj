@@ -142,6 +142,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\CrearEjemplo.aspx" />
     <Content Include="Pages\CrearProvincia.aspx" />
     <Content Include="Pages\EditarProvincia.aspx" />
     <Content Include="Pages\Error.aspx" />
@@ -279,6 +280,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CrearEjemplo.aspx.cs">
+      <DependentUpon>CrearEjemplo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CrearEjemplo.aspx.designer.cs">
+      <DependentUpon>CrearEjemplo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\CrearProvincia.aspx.cs">
       <DependentUpon>CrearProvincia.aspx</DependentUpon>
